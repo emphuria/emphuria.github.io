@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Emphuria - Você conhece a verdade?" />
+  <meta property="og:image" content="https://emphuria-1521e.web.app/logo.jpeg" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emphuria - Você conhece a verdade?</title>
+
+    <style media="screen">
+      body {
+        background: #000304;
+        color: #FFF;
+        padding: 0;
+        margin: 0;
+        color: #827050;
+        font-family: 'Raleway';
+      }
+
+      #logo {
+        position: absolute;
+        left: 0;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        animation: flick 1.5s infinite;
+      }
+
+      .particle {
+        position: absolute;
+        background-color: #424242;
+        width: 35px;
+        height: 1px;
+        animation: flick-reverse 5s infinite, lateral-flick .09s infinite;
+        opacity: 0;
+      }
+
+      .container {
+        position: absolute;
+        width:100%;
+        overflow-y:hidden;
+        top:0;
+        bottom:0;
+      }
+
+      .quote {
+        font-size: 75px;
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+
+      @keyframes flick {
+        0%   { opacity:0.4;}
+        2% {opacity: 0; left: 14px; top: 11px;}
+        3% {opacity: 1; bottom: 10px;}
+        4% {opacity: 0; right: 15px;}
+        5% {opacity: 1;right: 15px; top: 12px;}
+        25%  { opacity:0;}
+        35% {opacity: 1;}
+        36% {opacity: 0;}
+        37% {opacity: 1;}
+        40%  { opacity:0.8;}
+        45% {opacity: 0;right: 14px; bottom: 11px;}
+        46% {opacity: 1;left: 14px; top: 11px;}
+        47% {opacity: 0;left: 3px; bottom: 25px;}
+        48% {opacity: 1;}
+        100% { opacity:1; }
+      }
+
+      @keyframes flick-reverse {
+        0%   { opacity:0;}
+        2% {opacity: 1; margin-left: 14px; margin-top: 11px;}
+        3% {opacity: 0; margin-bottom: 10px;}
+        4% {opacity: 1; margin-right: 15px;}
+        5% {opacity: 0;margin-right: 15px; margin-top: 12px;}
+        34%  { opacity:0;}
+        35% {opacity: 1;}
+        36% {opacity: 0;}
+        37% {opacity: 1;}
+        40%  { opacity:0;}
+        45% {opacity: 0;margin-right: 14px; margin-bottom: 11px;}
+        46% {opacity: 1;margin-left: 14px; margin-top: 11px;}
+        47% {opacity: 0;margin-left: 3px; margin-bottom: 25px;}
+        84% {opacity: 0;margin-right: 14px; margin-bottom: 11px;}
+        85% {opacity: 0;margin-right: 14px; margin-bottom: 11px;}
+        86% {opacity: 1;margin-left: 14px; margin-top: 11px;}
+        87% {opacity: 0;margin-left: 3px; margin-bottom: 25px;}
+        100% { opacity:0; }
+      }
+
+
+      @keyframes lateral-flick {
+        from { border-left: none; border-right: 7px solid #000304;}
+        to { border-right: none; border-left: 7px solid #000304;}
+      }
+
+
+      @media (max-width: 600px) {
+        #logo {
+          width: 100%;
+          margin-top: 60px;
+        }
+        .quote {
+          font-size: 35px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <img id="logo" src="./logo.svg" alt="">
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div><div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+        <div class="particle">
+        </div>
+  </body>
+  <script type="text/javascript">
+    const setParticlesValue = () => {
+      var particles = document.querySelectorAll(".particle");
+
+
+      particles.forEach((particle) => {
+        let topValue = Math.floor((Math.random() * 100) + 1) + '%';
+        let lateralValue = Math.floor((Math.random() * 100) + 1) + '%';
+        let widthValue = 36 + Math.floor((Math.random() * 75) + 1) + 'px';
+        let heightValue = 0.1 + Math.floor((Math.random() * 2) + 1) + 'px';
+
+        particle.style.top = topValue;
+
+        particle.style.width = widthValue;
+        particle.style.height = heightValue;
+        if(Math.floor((Math.random()) + 1) == 1) {
+          particle.style.left = lateralValue;
+        } else {
+          particle.style.right = lateralValue;
+        }
+      })
+    }
+    setParticlesValue()
+    setTimeout(setParticlesValue, 6000)
+  </script>
+</html>
